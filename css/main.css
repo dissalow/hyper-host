@@ -25,3 +25,29 @@ body{
     background-color: green;
     color: white;
 }
+
+.banner-container{
+    position: relative;
+    text-align: center;
+}
+
+.jumbotron-h{
+    position: absolute;
+    font-family: 'Roboto Slab Regular';
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    z-index: 5;
+}
+
+.jumbotron-p{
+    font-size: 18px;
+    position: absolute;
+    font-family: 'Open Sans Regular';
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    z-index: 5;
+}
