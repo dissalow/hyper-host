@@ -1,9 +1,27 @@
+body{
+    font-family: 'Open Sans Regular';
+}
+
 .logo-font{
     font-size: 3em;
     font-family: 'Android KG';
+    color: black;
 }
 
 .telephone{
     font-size: 1.5em;
     font-family: 'Open Sans Regular';
+}
+
+.nav-bg{
+    background-color: #eff2ef;
+}
+
+.nav-link{
+    color: black;
+}
+
+.nav-link:hover{
+    background-color: green;
+    color: white;
 }
