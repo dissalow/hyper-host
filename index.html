@@ -76,31 +76,44 @@
     </nav>
     <section class="container-fluid">
         <div class="row">
-            <div class="col-md-12">
-                <div class="banner-carousel">
-                    <div class="banner-container">
-                        <h1 class="jumbotron-h text-uppercase">пластиковая тара</h1>
-                        <p class="jumbotron-p">Пластиковая тара — контейнеры и емкости различных размеров,<br>
-                            предназначенные для хранения широкого спектра товаров, изделий</p>
-                        <img class="img-fluid" src="/img/banner-1_cr.png">
-                    </div>
-                    <div class="banner-container">
-                        <h1 class="jumbotron-h text-uppercase">не пластиковая тара</h1>
-                        <p class="jumbotron-p">Пластиковая тара — контейнеры и емкости различных размеров,<br>
-                            предназначенные для хранения широкого спектра товаров, изделий</p>
-                        <img class="img-fluid" src="/img/banner-1_cr.png">
-                    </div>
-                    <div class="banner-container">
-                        <h1 class="jumbotron-h text-uppercase">супер пластиковая тара</h1>
-                        <p class="jumbotron-p">Пластиковая тара — контейнеры и емкости различных размеров,<br>
-                            предназначенные для хранения широкого спектра товаров, изделий</p>
-                        <img class="img-fluid" src="/img/banner-1_cr.png">
+            <div class="no-padding col-md-12">
+                <div id="bannercarousel" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#bannercarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#bannercarousel" data-slide-to="1"></li>
+                        <li data-target="#bannercarousel" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <h1 class="jumbotron-h text-uppercase">пластиковая тара</h1>
+                            <p class="jumbotron-p">Пластиковая тара — контейнеры и емкости различных размеров,<br>
+                                предназначенные для хранения широкого спектра товаров, изделий</p>
+                            <img src="/img/banner-1_cr.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <h1 class="jumbotron-h text-uppercase">не пластиковая тара</h1>
+                            <p class="jumbotron-p">Пластиковая тара — контейнеры и емкости различных размеров,<br>
+                                предназначенные для хранения широкого спектра товаров, изделий</p>
+                            <img src="/img/banner-1_cr.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <h1 class="jumbotron-h text-uppercase">супер пластиковая тара</h1>
+                            <p class="jumbotron-p">Пластиковая тара — контейнеры и емкости различных размеров,<br>
+                                предназначенные для хранения широкого спектра товаров, изделий</p>
+                            <img src="/img/banner-1_cr.png" class="d-block w-100" alt="...">
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
+    <section class="container-fluid">
+        <div class="row bg-gren">
+            <div class="col-md-12">
+                <h3 class="advantages-h text-center">Преимущества пластиковой тары</h3>
+            </div>
+        </div>
+    </section>
 
 
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
@@ -109,6 +122,7 @@
     <script type="text/javascript">
         $(document).ready(function () {
             $('.banner-carousel').slick({
+                centerMode: true,
                 dots: true,
                 speed: 500,
             });

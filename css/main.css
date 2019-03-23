@@ -2,6 +2,10 @@ body{
     font-family: 'Open Sans Regular';
 }
 
+.no-padding{
+    padding: 0;
+}
+
 .logo-font{
     font-size: 3em;
     font-family: 'Android KG';
@@ -17,6 +21,10 @@ body{
     background-color: #eff2ef;
 }
 
+.bg-gren{
+    background-color: #007640;
+}
+
 .nav-link{
     color: black;
 }
@@ -24,11 +32,6 @@ body{
 .nav-link:hover{
     background-color: green;
     color: white;
-}
-
-.banner-container{
-    position: relative;
-    text-align: center;
 }
 
 .jumbotron-h{
@@ -50,4 +53,20 @@ body{
     transform: translate(-50%, -50%);
     color: white;
     z-index: 5;
+}
+
+.advantages-h{
+    padding: 0.2em;
+    font-size: 1.5em;
+    color: white;
+}
+
+.carousel-indicators li{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+
+.carousel-indicators .active{
+    background-color: #007640;
 }
