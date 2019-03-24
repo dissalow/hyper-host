@@ -59,6 +59,12 @@ body{
     padding: 0.2em;
     font-size: 1.5em;
     color: white;
+    font-family: 'Roboto Slab Regular';
+}
+
+.uses-h{
+    font-size: 1.5em;
+    font-family: 'Roboto Slab Regular';
 }
 
 .carousel-indicators li{
@@ -70,3 +76,8 @@ body{
 .carousel-indicators .active{
     background-color: #007640;
 }
+
+.nav-tabs .nav-link {
+    border: 0px solid transparent;
+}
+
