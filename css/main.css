@@ -81,3 +81,24 @@ body{
     border: 0px solid transparent;
 }
 
+.card{
+    border: 1px solid rgba(255, 255, 255, 0.125);
+}
+
+.card:hover{
+    border: 1px solid rgba(0, 0, 0, 0.39);
+}
+
+.slick-prev:before,
+.slick-next:before
+{
+    font-family: 'slick';
+    font-size: 20px;
+    line-height: 1;
+
+    opacity: .75;
+    color: #007640;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}

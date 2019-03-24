@@ -274,33 +274,64 @@
             </div>
             <div class="row text-center">
                 <div class="col-md-4">
-                    <a href="/img/setificate-1.png"><img class="img-fluid"
-                            src="/img/setificate-1.png"></a>
+                    <a href="/img/setificate-1.png"><img class="img-fluid" src="/img/setificate-1.png"></a>
                 </div>
                 <div class="col-md-4">
-                    <a href="/img/setificate-2.png"><img class="img-fluid"
-                            src="/img/setificate-2.png"></a>
+                    <a href="/img/setificate-2.png"><img class="img-fluid" src="/img/setificate-2.png"></a>
                 </div>
                 <div class="col-md-4">
-                    <a href="/img/setificate-3.png"><img class="img-fluid"
-                            src="/img/setificate-3.png"></a>
+                    <a href="/img/setificate-3.png"><img class="img-fluid" src="/img/setificate-3.png"></a>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="container-fluid bg-gren">
-        <div class="row">
+    <section class="container-fluid">
+        <div class="row bg-gren">
             <div class="col-md-12">
                 <h3 class="advantages-h text-center">Наиболее популярные товары</h3>
             </div>
         </div>
         <div class="container">
-            <div class="row">
-
+            <div class="product-carousel pt-2 row">
+                <div class="card">
+                    <img src="/img/product-img-1.png" class="card-img-top img-fluid p-4">
+                    <div class="card-body">
+                        <h5 class="card-title">Пластиковые полеты (Поддоны) MH 800</h5>
+                        <button class="btn btn-primary">Подробней</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="/img/product-img-1.png" class="card-img-top img-fluid p-4">
+                    <div class="card-body">
+                        <h5 class="card-title">Пластиковые полеты (Поддоны) MH 800</h5>
+                        <button class="btn btn-primary">Подробней</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="/img/product-img-1.png" class="card-img-top img-fluid p-4">
+                    <div class="card-body">
+                        <h5 class="card-title">Пластиковые полеты (Поддоны) MH 800</h5>
+                        <button class="btn btn-primary">Подробней</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="/img/product-img-1.png" class="card-img-top img-fluid p-4">
+                    <div class="card-body">
+                        <h5 class="card-title">Пластиковые полеты (Поддоны) MH 800</h5>
+                        <button class="btn btn-primary">Подробней</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="/img/product-img-1.png" class="card-img-top img-fluid p-4">
+                    <div class="card-body">
+                        <h5 class="card-title">Пластиковые полеты (Поддоны) MH 800</h5>
+                        <button class="btn btn-primary">Подробней</button>
+                    </div>
+                </div>
             </div>
         </div>
-        
+
     </section>
 
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
@@ -308,10 +339,11 @@
     <script type="text/javascript" src="/js/slick/slick.min.js"></script>
     <script type="text/javascript">
         $(document).ready(function () {
-            $('.banner-carousel').slick({
-                centerMode: true,
-                dots: true,
-                speed: 500,
+            $('.product-carousel').slick({
+                slidesToShow: 4,
+                infinite: true,
+                arrows: true,
+                slidesToScroll: 1
             });
         });
     </script>
